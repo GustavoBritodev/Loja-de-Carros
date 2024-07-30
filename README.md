@@ -50,3 +50,58 @@ A API retorna um array de objetos, onde cada objeto representa um supercarro com
 ## Créditos
 
 Desenvolvido por Gabriel Bay e Gustavo Brito.
+
+
+
+## Car Dealership
+
+This project is a web application that displays information about a selection of luxury supercars. The application is built using React and Axios to make HTTP requests to a local server. The car data is dynamically loaded from an endpoint and presented in a stylized manner on the user interface.
+
+## Features
+
+-   **Supercar Display**: List of supercars with details such as image, model, brand, description, mileage, and price.
+-   **Dynamic Interface**: Automatic data update when the page loads.
+-   **Interactive Design**: Visually appealing interface with CSS styling.
+
+## Technologies Used
+
+-   **React**: JavaScript library for building user interfaces.
+-   **Axios**: Promise-based HTTP client for making server requests.
+-   **CSS**: Cascading Style Sheets for application styling.
+
+## How to Run the Project
+
+1.  Clone the repository to your local machine:
+    
+    `git clone https://github.com/GustavoBritodev/Loja-de-Carros`
+    
+2.  Navigate to the project directory:
+    
+    `cd your-repository`
+    
+3.  Install the dependencies using the command:
+    
+    `npm install`
+    
+4.  Start the backend server that provides the car data.
+    
+5.  Run the command to start the React application:
+    
+    `npm start`
+    
+
+## Data Structure
+
+The API returns an array of objects, where each object represents a supercar with the following properties:
+
+-   `id`: Unique identifier of the car.
+-   `descricao`: Description of the car.
+-   `imagem`: URL of the car image.
+-   `marca`: Brand of the car.
+-   `modelo`: Model of the car.
+-   `quilometragem`: Mileage of the car.
+-   `preco`: Price of the car.
+
+## Credits
+
+Developed by Gabriel Bay and Gustavo Brito.
