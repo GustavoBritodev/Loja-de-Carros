@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  background-color: #07081b;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgb(6 3 10 / 89%);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);  
+  padding: 34px;  
+  filter: drop-shadow(0 30px 10px rgba(0,0,0,0.125));
+  flex: auto;
+  flex:  calc(25% - 10px); 
+  margin: 8px;
+ 
+}
+
+.title{
+  height: 250px;
+  margin-top: 0;
+  color: black;
+  animation: animate 2.5s ease infinite;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.titlePatinhas{
+  animation: titulo 2.5s ease infinite;
+}
+
+.metralha{
+  background-image: url(https://lh6.googleusercontent.com/proxy/hgDHXNJLsi4KETXBTEgRfr30xMSjx8iS2pPhqFpGVc9TBuqLVz6VEkrSYcMjnT41r_waAjyfOJ-qNVU6qbThRNU_MeoqZn8f);
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.banner-image {
+  /* background-image: url(https://images.unsplash.com/photo-1641326201918-3cafc641038e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80); */
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255, 0.255)
+}
+
+h1{
+  font-family: 'Righteous', sans-serif;
+  color: rgba(255,255,255,0.98);
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-family: "Tiny5", sans-serif;
+}
+
+.modelo{
+  font-family: "Sedan SC", serif;
+  /* letter-spacing: 2px; */
+}
+
+p {
+  color: #fff;
+  font-family: "Sedan SC", serif;
+  font-size: 0.8rem;
+  word-wrap: break-word;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+span{
+  font-family: "Sedan SC", serif;
+  font-size: 16px;
+  color: red;
+  font-weight: bold;
+}
+
+.card{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+.gif-container {
+  background-image: url(https://www.imagensanimadas.com/data/media/1512/tio-patinhas-imagem-animada-0001.gif);
+  position: relative;
+  background-size: cover;
+  overflow: hidden;
+  width: 250px; 
+  height: 200px;
+}
+
+.gif-container img {
+  position: absolute;
+  animation: moveLeft 5s linear infinite; 
+}
+
+@keyframes moveLeft {
+  from {
+    left: 100%; 
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes animate{
+  0%{
+    color: rgb(29, 255, 9);
+  }
+
+  25%{
+    color:  rgb(29, 255, 9);
+  }
+  50%{
+    color:  rgb(162, 20, 206);
+  }
+
+  75%{
+    color: rgb(162, 20, 206);
+  }
+  100%{
+    color: rgb(29, 255, 9);
+  }
+}
+
+@keyframes titulo {
+  0% {
+    color: rgb(29, 255, 9);
+  }
+
+  25% {
+    color:  rgb(29, 255, 9);
+  }
+  50% {
+    color:  rgb(162, 20, 206);
+  }
+
+  75% {
+    color: rgb(162, 20, 206);
+  }
+  100% {
+    color: rgb(29, 255, 9);
+  }
+}

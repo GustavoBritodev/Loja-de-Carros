@@ -1,0 +1,67 @@
+{
+    "locadora":[
+        {
+            "id": 1,
+            "descricao": "Um híbrido de alto desempenho, o LaFerrari combina um motor V12 com um motor elétrico, proporcionando uma potência impressionante e uma experiência de condução excepcional.",
+            "imagem": "https://quatrorodas.abril.com.br/wp-content/uploads/2016/11/5658bc472daad077d7bcf773ferrari-laferrari_2014_800x600_wallpaper_02.jpeg?quality=70&strip=all",
+            "marca": "Ferrari",
+            "modelo": "Ferrari LaFerrari",
+            "quilometragem": "0 KM",
+            "preco": "$1.5 milhão"
+        },
+        {
+            "id": 2,
+            "descricao": "O Aventador SVJ é uma obra-prima de engenharia italiana, com um motor V12 monstruoso, aerodinâmica avançada e um design agressivo.",
+            "imagem": "https://www.automaistv.com.br/wp-content/plugins/seox-image-magick/imagick_convert.php?width=1200&height=675&format=.jpg&quality=91&imagick=/wp-content/uploads/2018/08/Lamborghini-Aventador-SVJ-1-1200x675.jpg",
+            "marca": "Lamborghini",
+            "modelo": "Lamborghini Aventador SVJ",
+            "quilometragem": "0 KM",
+            "preco": "$600.000"
+        },
+        {
+            "id": 3,
+            "descricao": "Desenvolvido em colaboração com a Red Bull Racing, o Valkyrie é um supercarro de edição limitada que oferece desempenho de corrida de Fórmula 1 em uma estrutura de carro de rua.",
+            "imagem": "https://media.gq-magazine.co.uk/photos/6405fb643e977a7efb8a7764/master/pass/Aston-Martin-Valkyrie-HED.jpg",
+            "marca": "Aston Martin",
+            "modelo": "Aston Martin Valkyrie",
+            "quilometragem": "0 KM",
+            "preco": "$3.2 milhões"
+        },
+        {
+            "id": 4,
+            "descricao": "Combinando potência híbrida com aerodinâmica de ponta, o McLaren P1 é um dos supercarros mais desejados do mundo, oferecendo um desempenho impressionante tanto na pista quanto na estrada.",
+            "imagem": "https://veja.abril.com.br/wp-content/uploads/2016/06/esporte-carros-mclaren-p1-20140514-002-original.jpeg?quality=70&strip=info&w=928",
+            "marca": "McLaren",
+            "modelo": "McLaren P1",
+            "quilometragem": "0 KM",
+            "preco": "$1.3 milhão"
+        },
+        {
+            "id": 5,
+            "descricao": "Como um dos primeiros supercarros híbridos, o 918 Spyder oferece um equilíbrio impressionante entre desempenho e eficiência, com uma experiência de condução emocionante.",
+            "imagem": "https://istoe.com.br/wp-content/uploads/2021/12/porsche-918-spyder-e-roubado-de-dentro-da-concessionaria-nos-eua-1-1.jpg",
+            "marca": "Porsche",
+            "modelo": "Porsche 918 Spyder",
+            "quilometragem": "0 KM",
+            "preco": "$1.5 milhão"
+        },
+        {
+            "id": 6,
+            "descricao": "O Chiron é um dos supercarros mais rápidos do planeta, com um motor W16 quadriturbo que oferece desempenho incomparável e luxo supremo.",
+            "imagem": "https://fotos-jornaldocarro-estadao.nyc3.cdn.digitaloceanspaces.com/uploads/2019/09/10193250/0506d357-bugatti-chiron-super-sport-300-2-1160x653.jpg",
+            "marca": "Bugatti",
+            "modelo": "Bugatti Chiron",
+            "quilometragem": "0 KM",
+            "preco": "$3 milhões"
+        },
+        {
+            "id": 7,
+            "descricao": "Feito à mão na Itália, o Huayra é uma obra de arte sobre rodas, com um design exclusivo, materiais de alta qualidade e um desempenho excepcional.",
+            "imagem": "https://t.ctcdn.com.br/Dn-cfye_0-bJFFfiM32u_eciZHY=/1920x1080/smart/i867393.jpeg",
+            "marca": "Pagani",
+            "modelo": "Pagani Huayra",
+            "quilometragem": "0 KM",
+            "preco": "$2.5 milhões"
+        }
+    ]
+}
